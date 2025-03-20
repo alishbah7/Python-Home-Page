@@ -246,19 +246,19 @@ def Header():
       <div class='header'>
       <nav>
           <div class="wrapper">
-            <div class="logo"><a href="#">ALISHBAH<span>.PY</span></a></div>
+            <div class="logo"><a href="#">PYTHON<span>.PY</span></a></div>
             <input type="radio" name="slider" id="menu-btn">
             <input type="radio" name="slider" id="close-btn">
             <ul class="nav-links" style="margin-top: 20px;">
               <label for="close-btn" class="btn close-btn"><i class="fas fa-times" style="color: white;"></i></label>
-              <li id="logoTitleSmall"><a href="#">ALISHBAH<span>.PY</span></a></li>
+              <li id="logoTitleSmall"><a href="#">PYTHON<span>.PY</span></a></li>
               <li><a href="#">Home</a></li>
               <li>
                 <a href="#" class="desktop-item" >Projects</a>
                 <input type="checkbox" id="showDrop">
                 <label for="showDrop" class="mobile-item">Projects</label>
                 <ul class="drop-menu">
-                  <li><a href="#">Data Sweeper</a></li>
+                  <li><a href="https://csvex-byalishbah.streamlit.app/">CSVEX</a></li>
                   <li><a href="#">Unit Converter</a></li>
                 </ul>
               </li>

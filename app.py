@@ -129,7 +129,7 @@ swiper_html = """
 </head>
 <body>
   <main>
-    <h2 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">ALISHBAH.<span>PY</span></h2>
+    <h2 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">PYTHON'S<span> PROJECTS</span></h2>
     <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="400">As I embark on my Python journey, this space will serve as a collection of my projects, showcasing my progress and learning.</p>
     <button class="btn" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">About Me <i class="fa-solid fa-arrow-right"></i></button>
     <div class="swiper-container" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="400">
@@ -137,7 +137,7 @@ swiper_html = """
         <div class="swiper-wrapper" >
 
             <div class="swiper-slide slide-one">
-                <h3>Data Sweeper</h3>
+                <h3>CSVEX</h3>
             </div>
 
             <div class="swiper-slide slide-two">
@@ -159,6 +159,18 @@ swiper_html = """
 
     document.querySelector(".btn").addEventListener("click", function () {
       window.open("https://alishbah-portfolio.vercel.app/", "_blank");
+    });
+
+    document.querySelector(".slide-one").addEventListener("click", function () {
+      window.open("https://csvex-byalishbah.streamlit.app/", "_blank");
+    });
+
+    document.querySelector(".slide-two").addEventListener("click", function () {
+      window.open("https://comingsoon.streamlit.app/", "_blank");
+    });
+
+    document.querySelector(".slide-three").addEventListener("click", function () {
+      window.open("https://comingsoon.streamlit.app/", "_blank");
     });
 
 
