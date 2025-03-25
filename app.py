@@ -166,7 +166,7 @@ swiper_html = """
     });
 
     document.querySelector(".slide-two").addEventListener("click", function () {
-      window.open("https://comingsoon.streamlit.app/", "_blank");
+      window.open("https://unitconverter-byalishbah.streamlit.app/", "_blank");
     });
 
     document.querySelector(".slide-three").addEventListener("click", function () {
