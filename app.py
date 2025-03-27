@@ -124,6 +124,9 @@ swiper_html = """
     .slide-three{
       background: url("https://img.freepik.com/premium-vector/blue-simple-lock-seamless-pattern_138551-89.jpg?semt=ais_hybrid") no-repeat 50% 50%/cover;
     }
+    .slide-four{
+      background: url("https://t3.ftcdn.net/jpg/01/82/87/72/360_F_182877273_aa65bacRak0K7ITvZF9FLp6ti9zDnHhE.jpg") no-repeat 50% 50%/cover;
+    }
   </style>
 
 </head>
@@ -148,6 +151,10 @@ swiper_html = """
                 <h3>Password Strength</h3>
             </div>
 
+            <div class="swiper-slide slide-four">
+                <h3>Library Manager</h3>
+            </div>
+
         </div>
     </div>
   </main>
@@ -170,6 +177,10 @@ swiper_html = """
     });
 
     document.querySelector(".slide-three").addEventListener("click", function () {
+      window.open("https://password-strength-meter-byalishbah.streamlit.app/", "_blank");
+    });
+
+    document.querySelector(".slide-four").addEventListener("click", function () {
       window.open("https://comingsoon.streamlit.app/", "_blank");
     });
 
